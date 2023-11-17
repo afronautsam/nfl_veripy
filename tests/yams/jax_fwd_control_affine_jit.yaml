@@ -1,5 +1,5 @@
 system:
-  type: DoubleIntegrator
+  type: ControlAffineCAR
   feedback: FullState
   controller: default
 

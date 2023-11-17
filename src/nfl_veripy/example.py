@@ -134,7 +134,7 @@ def main_forward(params: dict) -> Tuple[Dict, Dict]:
     return stats, analyzer_info
 
 
-def main_backward(params: dict) -> tuple[dict, dict]:
+def main_backward(params: dict) -> Tuple[dict, dict]:
     """Runs a backward reachability analysis experiment according to params."""
 
     np.random.seed(seed=0)

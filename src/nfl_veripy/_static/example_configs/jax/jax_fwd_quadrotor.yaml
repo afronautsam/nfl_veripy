@@ -12,14 +12,15 @@ analysis:
     boundary_type: rectangle
   initial_state_range: "[[4.65, 4.75], [4.65, 4.75], [2.95, 3.05], [0.94, 0.96], [-0.01, 0.01], [-0.01, 0.01]]"
   t_max: 0.5
-  estimate_runtime: false
-  estimate_error: false
+  num_calls: 20
+  estimate_runtime: true
+  estimate_error: true
 
 visualization:
   save_plot: true
-  show_plot: false
-  make_animation: false
-  show_animation: false
+  show_plot: true
+  make_animation: true
+  show_animation: true
   show_samples: true
   show_trajectories: false
   plot_dims: [0, 1]
